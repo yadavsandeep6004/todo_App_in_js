@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&family=Poppins:wght@200&family=Roboto:ital,wght@0,400;0,700;1,500&family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(111, 153, 237, 0.24);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containar {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.containar h1 {
+    text-align: center;
+
+}
+
+.containar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.containar form input {
+    display: block;
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5px;
+
+}
+
+.containar form button{
+    padding: 4px 20px;
+    border: 0;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.btn{
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.btn:hover{
+    color: red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rebeccapurple;
+    margin: 2px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    color: #fff;
+
+}
